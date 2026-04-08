@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fipy>=4.0.2",
+    "imageio>=2.37.3",
+    "matplotlib>=3.10.8",
+    "moviepy==1.0.3",
+    "scipy>=1.17.1",
+]
